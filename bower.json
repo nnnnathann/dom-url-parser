@@ -1,0 +1,26 @@
+{
+  "name": "dom-url-parser",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nnnnathann/dom-url-parser",
+  "authors": [
+    "Nathan Bleigh <nathan.bleigh@gmail.com>"
+  ],
+  "description": "Parse URL in the browser using snippet from here: http://james.padolsey.com/javascript/parsing-urls-with-the-dom/",
+  "main": "dom-url-parser.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "url",
+    "parse"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
