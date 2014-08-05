@@ -9,7 +9,7 @@ USAGE
 #### As Global
 
 ```html
-<script src="bower_components/dom-url-parser.js"></script>
+<script src="bower_components/dom-url-parser/dom-url-parser.js"></script>
 <script>
   var myURL = domUrl('http://abc.com:8080/dir/index.html?id=255&m=hello#top');
   myURL.file;     // = 'index.html'
@@ -28,7 +28,7 @@ USAGE
 #### AMD
 ```html
 <script>
-require(['bower_components/dom-url-parser'], function (domUrl) {
+require(['bower_components/dom-url-parser/dom-url-parser'], function (domUrl) {
   var myURL = domUrl('http://abc.com:8080/dir/index.html?id=255&m=hello#top');
 });
 </script>
